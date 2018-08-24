@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        >
+
+        <TextView
+            android:id="@+id/judulnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="judul"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <View
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/tanggalnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/penulisnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penulis"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
