@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arjuna.dailynews.DetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+            android:id="@+id/judulberita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Berita"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            >
+            <TextView
+                android:id="@+id/penulisberita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penulis"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/tanggalberita"
+                android:layout_marginLeft="200dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal berita"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/isiberita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isi Berita"
+            android:textSize="19sp"
+            android:paddingTop="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
